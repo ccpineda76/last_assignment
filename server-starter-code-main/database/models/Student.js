@@ -15,12 +15,12 @@ const Student = db.define("student", {
 
   email: {
     type: Sequelize.STRING,
-    allowNull: false
+    allowNull: true
   },
 
   gpa: {
     type: Sequelize.STRING,
-    allowNull: false
+    allowNull: true
   }
 });
 
