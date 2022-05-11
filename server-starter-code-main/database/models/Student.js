@@ -12,7 +12,12 @@ const Student = db.define("student", {
     type: Sequelize.STRING,
     allowNull: false
   },
- 
+
+  imageLink:{
+    type: Sequelize.STRING,
+    defaultValue: 'https://www.thehumancapitalhub.com/uploads_users/avarter.jpg',
+  },
+
   email: {
     type: Sequelize.STRING,
   },
